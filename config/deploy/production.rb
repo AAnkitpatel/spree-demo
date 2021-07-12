@@ -60,4 +60,5 @@
 #     # password: "please use keys"
 #   }
 #
+#config.config.read_encrypted_secrets = true
 server '65.0.132.23', user: 'deploy', roles: %w{web app db}
